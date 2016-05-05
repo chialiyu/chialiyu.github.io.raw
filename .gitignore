@@ -1,19 +1,9 @@
-# Eclipse
-.classpath
-.project
-.settings/
-
-# Intellij
-.idea/
-*.iml
-*.iws
-
-# Mac
+_site
 .DS_Store
-
-# Maven
-log/
-target/
-
-#Jekyll
-_site/
+*.sublime-project
+*.sublime-workspace
+codekit-config.json
+node_modules
+Gemfile.lock
+.sass-cache
+.jekyll-metadata
