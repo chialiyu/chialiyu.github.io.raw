@@ -3,7 +3,7 @@ layout: post
 title: Creating Uber Jar in SBT
 description: ""
 modified: 2016-05-01
-tags: [sample post, code, highlighting]
+tags: [sbt]
 image:
   feature: abstract-10.jpg
   credit: dargadgetz
