@@ -3,7 +3,7 @@ layout: post
 title: Setup Confluent Platform Locally on Mac
 description: ""
 modified: 2016-05-14
-tags: [confluent, setup]
+tags: [dev, confluent, setup]
 image:
   feature: journalism-for-blogging.jpg
   credit: Fotolia
@@ -34,3 +34,6 @@ advertised.host.name=localhost
 
 Follow quick start:
 http://docs.confluent.io/2.0.1/quickstart.html
+
+When you need to clean up:
+Zookeeper, Kafka and schema registry save intermediate files in /tmp folder.  If you run into "nodeExists", "Kafka broker" exists, etc those kind of strange problems, stop the services, clean up /tmp/<service name> folder, then restart the service.  It might help.
